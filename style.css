@@ -1,0 +1,91 @@
+/*Need to go back and cleanup. do some "cruft"*/
+/*Do we have google-font?*/
+
+.nav { background-color: red;
+       position: fixed;
+       top: 0px;
+       left: 0px;
+       right: 0px;
+}
+
+nav ul li { display: inline;
+            padding: 10px;
+            font-size: 25px;
+            text-shadow: 2px 2px lightskyblue;
+            
+}
+
+a:link { color: darkblue;
+         text-decoration: none;
+         font-family:Yanone Kaffeesatz;
+         font-size:30px;
+}
+
+a:visited { color: darkblue;
+            text-decoration: none;
+}
+
+a:hover { background-color: white;
+}
+
+#logo { color: white;
+        background-color: darkblue;
+        text-shadow: 1px 1px pink;
+        font-size: 45px;
+        border-style: dotted;
+        border-color: lightskyblue;
+        font-family: Sacramento;
+}
+
+
+.video { text-align: center;
+}
+
+body { font-family: "tahoma";
+       background-image: url("images/plasma_colors_pastels.jpg");
+       background-size: cover;
+}
+
+footer { background-color: red;
+         color: white;
+  		 text-align: center;
+         position: absolute;
+         right: 0px;
+         left: 0px;
+}
+
+.main { color: red;
+        font-size: 25px;
+        font-family: "tahoma";
+}
+
+.mainpic { display: block;
+           margin: 0 auto;
+           margin-top:-50px;
+           width: 400px;
+           padding: 10px;
+}
+
+.maininfo { text-align: center;
+           padding: 5px;
+           margin: 5px;
+           margin-left: 8%;
+           font-style: bold;
+           width: 80%;
+           border: 3px solid red ;
+           font-size: 20px;
+}
+
+.product-entry{
+    display:inline-block;
+}
+
+.product-entry img{
+    border:black 1px solid;
+}
+
+h1 { text-align: center;
+font-family: Sacramento;
+font-size:80px;
+
+}
